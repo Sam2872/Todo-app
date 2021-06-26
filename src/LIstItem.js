@@ -15,7 +15,7 @@ const checkHandler =() =>{
     }))
 }
     return (
-        <div className='list p-2 mt-2 d-flex align-items-center justify-content-between'>
+        <div className='list p-2 mt-3 d-flex align-items-center justify-content-between'>
             <div className={`text ${item.completed? "checked":""} ` } >
             <p>{item.text}</p>
             </div>
