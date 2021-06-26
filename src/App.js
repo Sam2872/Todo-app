@@ -26,7 +26,7 @@ const App = () => {
       case "Completed":
         setFiltered(list.filter(item=> item.completed=== true));
         break;
-        case "Uncompleted":
+        case "Incomplete":
           setFiltered(list.filter(item=> item.completed===  false));
           break;  
         default:

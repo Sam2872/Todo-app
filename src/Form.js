@@ -24,7 +24,7 @@
                 <select onChange={fitlerhandler} name="todos" class="filter-todo">
                 <option value="All">All</option>
                 <option value="Completed">Completed</option>
-                <option value="incomplete">Incomplete</option>
+                <option value="Incomplete">Incomplete</option>
                 </select>
                </div>
                    
