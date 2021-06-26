@@ -1,0 +1,80 @@
+
+body {
+  margin: 0;
+  font-family: --bs-font-sans-serif;
+  background-color: #272743;
+  color:whitesmoke
+}
+
+.bton::placeholder{
+ color: whitesmoke;
+}
+select{
+  height: 3rem;
+  border-radius: 4px;
+  margin-left: 5%;
+  border: 2px solid #f50057;
+  font-weight: 600;
+}
+.col,h4{
+  color: #E89873;
+ 
+}
+input{
+  background-color: inherit;
+  border: none;
+  border-bottom: 1px solid #f50057 ;
+  color: white;
+  text-align: center;
+}
+input::placeholder{
+  color: whitesmoke;
+  
+}
+select,input:focus{
+outline: 0;
+}
+.list{
+  background-color:#535472; 
+  border-radius:15px;
+  font-weight: 700;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}  
+.text{
+  font-size: rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  width: 70%;
+  overflow:hidden;
+}
+
+.checked{
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+
+.check,.trash
+{
+ color: white;
+ height: 2.5rem;
+ width: 2.5rem;
+ border: none;
+ border-radius: 50%;
+ margin-right: 5%;
+}
+.check:hover{
+  background-color: white;
+  color:rgb(34, 204, 25);
+  border:1px solid rgb(34, 204, 25);
+}
+.trash:hover{
+  background-color: white;
+  color:rgb(242, 39, 39);
+  border:1px solid rgb(242, 39, 39);
+}
+.check{
+  background-color: rgb(34, 204, 25);
+}
+.trash{
+  background-color: rgb(242, 39, 39);
+}
